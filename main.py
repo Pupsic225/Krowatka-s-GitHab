@@ -17,5 +17,4 @@ class Archer(Unit):
         unit.health -= self.range_attack_power
 big_warior = Soldier("Big Boy",200,50)
 little_archer = Archer("Little Boy",120,70)
-big_warior.attack(120)
-little_archer.attack(200)
+
